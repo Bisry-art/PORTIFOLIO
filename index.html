@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.B Car Rental</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo"><h2>B.B CARS</h2></div>
+    <div class="navbar" id="mynavbar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <div class="btnli">
+        <button class="dropdown">Cars</button>
+        <div class="navli">
+        <a href="#">Toyota </a>
+        <a href="#">Honda </a>
+        <a href="#">Ford</a>
+        <a href="#">Chevrolet </a>
+    </div>
+    </div>
+        <a href="#">Contact Us</a>
+        <a href="#" class="red">Sinup</a>
+        <a href="#" class="red">Login</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="cont">
+        <h1>WELCOME</h1>
+        <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Ipsum commodi sapiente hic, officia earum magni! Dicta ducimus corporis <br>
+            harum facere, asperiores ipsa optio in magni molestias dolores odio, delectus quisquam.</p>
+            <button class="bf"><a href="#">ORDER NOW</a></button>
+    </div>
+    <script>
+        function myFunction(){
+            var x= document.getElementById("mynavbar");
+            if(x.className==="navbar"){
+                x.className+="responsive";
+            }else{
+                x.className="navebar";
+            }
+        }
+    </script>
+</body>
+</html>
